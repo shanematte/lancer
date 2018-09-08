@@ -1,0 +1,82 @@
+.task {
+  display: flex;
+  flex-direction: column;
+  width: 96%;
+  height: 257px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  margin-top: 2rem;
+}
+.task_component {
+  display: flex;
+  flex-direction: row;
+}
+.task_component-name {
+  font-size: 24px;
+}
+.dashboard_task {
+  display: flex;
+  flex-direction: column;
+  width: 96%;
+  height: 257px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  margin-top: 2rem;
+  padding: 1.5rem;
+  color: #000000;
+}
+.dashboard_task-line {
+  width: 100%;
+  height: 1px;
+  background-color: #efefef;
+}
+.dashboard_task-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.dashboard_task-name {
+  font-size: 24px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 70%;
+}
+.dashboard_task-option {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.dashboard_task-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  height: 2.4rem;
+}
+.dashboard_task-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 7rem;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.dashboard_task-content-description {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 70%;
+  font-family: OpenSans;
+}
+.dashboard_task-content-price {
+  font-family: Objective-Bold;
+}
+.dashboard_task-content-currency {
+  font-family: Objective-Medium;
+}
+.dashboard_task-tags {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
